@@ -1,3 +1,4 @@
+version: 0.2
 phases:
   install:
     commands:
@@ -8,4 +9,4 @@ phases:
   post_build:
     commands:
       - echo "Erstelle das Deployment-Paket"
-      
+
