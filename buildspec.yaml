@@ -1,0 +1,11 @@
+phases:
+  install:
+    commands:
+      - echo "Installiere Abhängigkeiten"
+  build:
+    commands:
+      - echo "Baue das Projekt"
+  post_build:
+    commands:
+      - echo "Erstelle das Deployment-Paket"
+      
