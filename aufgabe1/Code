@@ -20,6 +20,12 @@ unzip aufgabe1zip.zip
 ls -al ~/Downloads/laessig-training
 
 sudo chmod 700 ~/Downloads/laessig-training.pem 
+ -> chmod: Steht für "change mode" und wird verwendet, um die Berechtigungen von Dateien oder Verzeichnissen zu ändern.
+ -> 700: Gibt die neuen Berechtigungen für die Datei an.
+ -> 7 steht für den Besitzer der Datei. 
+ 7 bedeutet, dass der Besitzer Lese-, Schreib- und Ausführungsrechte hat (rwx).
+ 0 steht für die Gruppe. 0 bedeutet, dass Gruppenmitglieder keinerlei Rechte auf diese Datei haben.
+ 0 steht für andere Benutzer. 0 bedeutet, dass auch andere Benutzer keine Rechte auf diese Datei haben.
 
 ssh ec2-user@3.123.128.188 -i ~/Downloads/laessig-training.pem
 
