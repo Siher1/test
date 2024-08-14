@@ -28,8 +28,8 @@ sudo chmod 700 ~/Downloads/laessig-training.pem
  0 steht für andere Benutzer. 0 bedeutet, dass auch andere Benutzer keine Rechte auf diese Datei haben.
 
 ssh ec2-user@3.123.128.188 -i ~/Downloads/laessig-training.pem
+ -> ssh Secure Shell und ist ein Protokoll sowie ein Kommandozeilenprogramm, das verwendet wird, um eine verschlüsselte Verbindung zu einem Remote-Server herzustellen. 
+   Es ermöglicht den sicheren Zugriff und die Verwaltung von Remote-Servern über das Netzwerk.
+ -> i ~/Downloads/laessig-training.pem: Dieser Parameter gibt die SSH-Schlüsseldatei (.pem) an, die für die Authentifizierung verwendet wird.
 
 
-
-
-ssh ec2-user@3.123.128.188 -i ~/Downloads/laessig-training.pem 
