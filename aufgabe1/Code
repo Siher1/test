@@ -1,0 +1,6 @@
+
+
+
+
+
+ssh ec2-user@3.123.128.188 -i ~/Downloads/laessig-training.pem 
