@@ -5,12 +5,17 @@ git commit
 git push 
 
 git commit -m "steuer hinzugefügt"
+ -> -m steht für eine message die man hinter lässt für die nächste Person die dran weiter arbeitet
 
 zip -r aufgabe1zip ./aufgabe1
+ -> verpacken der Datei aufgabe1 in eine zip Datei mit den Namen aufgabe1zip
 
 unzip aufgabe1zip.zip 
+  -> entpacken der Datei aufgabe1zip.zip
 
  scp -i ~/Downloads/laessig-training aufgabe1zip.zip ec2-user@3.123.128.188:/home/ec2-user/siher 
+ -> kopiert die Datei aufgabe1zip.zip von deinem lokalen Rechner in das Verzeichnis /home/ec2-user/siher auf einem Remote-Server mit der IP-Adresse 3.123.128.188
+ Zugriff auf den Remote-Server erfolgt über den Benutzer ec2-user und verwendet die SSH-Schlüsseldatei laessig-training -> Verzeichnis ~/Downloads 
 
 ls -al ~/Downloads/laessig-training
 
