@@ -4,6 +4,20 @@ git add .
 git commit
 git push 
 
+git commit -m "steuer hinzugefügt"
+
+zip -r aufgabe1zip ./aufgabe1
+
+unzip aufgabe1zip.zip 
+
+ scp -i ~/Downloads/laessig-training aufgabe1zip.zip ec2-user@3.123.128.188:/home/ec2-user/siher 
+
+ls -al ~/Downloads/laessig-training
+
+sudo chmod 700 ~/Downloads/laessig-training.pem 
+
+ssh ec2-user@3.123.128.188 -i ~/Downloads/laessig-training.pem
+
 
 
 
