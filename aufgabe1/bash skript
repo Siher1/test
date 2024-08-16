@@ -1,0 +1,12 @@
+#! /bin/bash
+
+scp -i ~/Downloads/laessig-training aufgabe1zip.zip ec2-user@3.123.128.188:/home/ec2-user/siher
+
+
+ls -al ~/Downloads/laessig-training
+
+
+ssh ec2-user@3.123.128.188 -i ~/Downloads/laessig-training.pem
+
+
+
