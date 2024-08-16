@@ -8,5 +8,14 @@ ls -al ~/Downloads/laessig-training
 
 ssh ec2-user@3.123.128.188 -i ~/Downloads/laessig-training.pem
 
+cd ~/siher
+
+unzip aufgabe1zip.zip 
+
+cd aufgabe1zip/
+
+
+
+
 
 
