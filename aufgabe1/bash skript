@@ -1,19 +1,20 @@
 #! /bin/bash
 
-scp -i ~/Downloads/laessig-training aufgabe1zip.zip ec2-user@3.123.128.188:/home/ec2-user/siher
+scp -i ~/Downloads/laessig-training.pem aufgabe1zip.zip ec2-user@3.123.128.188:/home/ec2-user/
 
+ssh ec2-user@3.123.128.188 -i ~/Downloads/laessig-training.pem << 'ENDSSH'
 
-ls -al ~/Downloads/laessig-training
+mkdir -p siher
 
-
-ssh ec2-user@3.123.128.188 -i ~/Downloads/laessig-training.pem
+cp ./aufgabe1zip.zip ./siher
 
 cd ~/siher
 
 unzip aufgabe1zip.zip 
 
-cd aufgabe1zip/
+rm aufgabe1zip.zip 
 
+ENDSSH
 
 
 
