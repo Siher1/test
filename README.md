@@ -32,7 +32,10 @@ AWS Shared Responsibility Model: Verstehen, welche Verantwortungen AWS und die K
 Preismodell von AWS: Einblick in verschiedene Preisoptionen wie On-Demand, Reserved Instances und Spot Instances.
 Cloud-Konzepte und Architektur: Unterschiede zwischen On-Premise, Cloud, IaaS, PaaS, und SaaS.
 
-5. Intensives Lernen mit Altfragen und Übungsprüfungen
+5. Anmeldung zur Prüfung
+Um sich zur Prüfung anzumelden, besucht man die Website (https://www.aws.training/Certification). Dort kann man zwischen einer Online-Prüfung und einer Prüfung in einem Testzentrum wählen. Die Prüfungsgebühr beträgt 109,48 €
+
+6. Intensives Lernen mit Altfragen und Übungsprüfungen
 In den letzten 3 Wochen solltest man sich intensiv mit Übungsfragen und Altfragen auseinandersetzen, um das erlernte Wissen zu festigen und sich auf die Prüfungssituation vorzubereiten. Dabei kannst man auf Plattformen wie Udemy auf speziell zusammengestellte Übungsprüfungen zurückgreifen. Diese Prüfungen simulieren die eigentliche AWS-Prüfung und geben ein Gefühl dafür, welche Themen und Fragenbereiche vertieft werden müssen.
 
 Eine gute Quelle für solche Tests ist z.B. dieser Kurs:  https://evoila.udemy.com/course/practice-exams-aws-certified-cloud-practitioner/learn/quiz/4924890/test#overview. Ziel ist es, dich an die Art der Fragen zu gewöhnen und deine Geschwindigkeit und Genauigkeit zu steigern.
